@@ -93,7 +93,9 @@ class _FeedScreenState extends State<FeedScreen> {
 
           _buildPost(0),
           _buildPost(1),
-          // _buildPost(2),
+          _buildPost(2),
+          _buildPost(3),
+
           //posts
         ],
       ),
@@ -201,7 +203,7 @@ Widget _buildPost(int index) {
                                 onPressed: () => print('Liked'),
                               ),
                               Text(
-                                '2,534',
+                                posts[index].likes,
                                 style: TextStyle(
                                     fontSize: 14, fontWeight: FontWeight.w600),
                               )
@@ -219,7 +221,7 @@ Widget _buildPost(int index) {
                                 onPressed: () => print('comments'),
                               ),
                               Text(
-                                '231',
+                                posts[index].comments,
                                 style: TextStyle(
                                   fontSize: 14,
                                   fontWeight: FontWeight.w600,
