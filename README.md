@@ -1,4 +1,4 @@
-# Instagram_clone
+# Instagram ReDesigned
 
 A new Flutter application with a redefined UI of Instagram.
 
